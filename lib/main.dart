@@ -50,9 +50,9 @@ class _HomePageState extends State<HomePage> {
       home: ListView.builder(
         itemBuilder: (context, index) {
           print("index:" + index.toString());
-          this.index = index;
           return GestureDetector(
             onTap: () {
+              this.index = index;
               Navigator.of(context).pushNamed(Profile.routeName);
             },
             child: Card(
