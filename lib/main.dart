@@ -86,6 +86,8 @@ class _HomePageState extends State<HomePage> {
                         ),
                       ],
                     ),
+                    Spacer(),
+                    Icon(Icons.delete),
                   ],
                 ),
               ),
